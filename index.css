@@ -23,7 +23,7 @@ img {
   border-radius: 50px;
 }
 .choice:hover {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: pointer;
 }
 .choices {
