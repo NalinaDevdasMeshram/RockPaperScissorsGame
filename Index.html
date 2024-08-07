@@ -8,26 +8,32 @@
   </head>
   <body>
     <h2>Rock Paper Scissors</h2>
-    <div class="choice">
-      <div>
+    <div class="choices">
+      <div class="choice" id="rock">
         <img src="./Images/rock.png" alt="img" />
       </div>
-      <div>
+      <div class="choice" id="paper">
         <img src="./Images/paper.png" alt="img" />
       </div>
-      <div>
+      <div class="choice" id="scissors">
         <img src="./Images/scissors.png" alt="img" />
       </div>
     </div>
-    <div>
-      <p>0</p>
-      <p>You</p>
+    <div class="score-board">
+      <div class="score">
+        <p id="yours">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="comp">0</p>
+        <p>Comp</p>
+      </div>
     </div>
-    <div>
-      <p>0</p>
-      <p>Comp</p>
+
+    <div class="msg-container">
+      <p id="msg">Pick Your Move</p>
     </div>
-    <button>Pick Your Move</button>
+
     <script src="index.js"></script>
   </body>
 </html>
